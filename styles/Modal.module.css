@@ -1,0 +1,146 @@
+@tailwind utilities;
+
+@layer utilities {
+  .body-bg {
+    background-color: hsl(217, 54%, 11%);
+  }
+
+  .modal-bg {
+    background-color: hsl(216, 50%, 16%);
+  }
+
+  .line-bg {
+    background-color: hsl(215, 32%, 27%);
+  }
+
+  .t-white {
+    color: hsl(0, 0%, 100%);
+  }
+
+  .soft-blue {
+    color: hsl(215, 51%, 70%);
+  }
+
+  .cyan {
+    color: hsl(178, 100%, 50%);
+  }
+
+  .font-300 {
+    font-weight: 300;
+  }
+
+  .font-400 {
+    font-weight: 400;
+  }
+
+  .font-600 {
+    font-weight: 600;
+  }
+}
+
+.Modal {
+    @apply
+    grid
+    place-items-center
+    modal-bg
+    p-5
+    rounded-xl
+    shadow-xl;
+}
+
+.ModalNFTImage {
+    @apply
+    grid
+    place-items-center
+    w-full
+    bg-red-500
+    rounded-xl
+    overflow-hidden;
+}
+
+.ModalHeaderHeading {
+    @apply
+    text-2xl
+    font-600
+    t-white
+    my-4;
+}
+
+.ModalHeaderDescrip {
+    @apply
+    font-300
+    soft-blue
+    my-4;
+}
+
+.ModalInfo {
+    @apply
+    w-full
+    flex
+    items-baseline
+    justify-between;
+}
+
+.ModalInfoPrice {
+    @apply
+    flex
+    items-center
+    cyan
+    font-600
+    uppercase;
+}
+
+.ModalInfoPriceIcon {
+    @apply
+    mr-2;
+}
+
+.ModalInfoExpireDate {
+    @apply
+    font-400
+    flex
+    items-center;
+}
+
+.ModalInfoExpireDateIcon {
+    @apply
+    mr-2;
+}
+
+.ModalSeparator {
+    @apply
+    my-4
+    h-0.5
+    w-full
+    line-bg;
+}
+
+.ModalAuthor {
+    @apply
+    w-full
+    flex
+    items-center;
+}
+
+.ModalAuthorImg {
+    @apply
+    w-8
+    h-8
+    rounded-full
+    border-solid
+    border-2
+    border-white;
+}
+
+.ModalAuthorText {
+    @apply
+    soft-blue
+    font-400
+    ml-4;
+}
+
+.ModalAuthorLink {
+    @apply
+    ml-1
+    t-white;
+}
