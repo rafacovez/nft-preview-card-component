@@ -1,12 +1,13 @@
 import Head from 'next/head'
+import Modal from '../components/modal'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>NextJS, TypeScript and Tailwind CSS template</title>
+        <title>NFT  preview app</title>
       </Head>
-      <p>Hello world</p>
+      <Modal/>
     </div>
   )
 }
