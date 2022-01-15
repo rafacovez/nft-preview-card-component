@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Modal from '../components/modal'
+import Modal from '../components/Modal'
 import Footer from '../components/Footer'
 
 export default function Home() {
