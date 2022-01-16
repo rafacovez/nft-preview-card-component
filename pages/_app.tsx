@@ -5,14 +5,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="Main">
       <Head>
-        <title>
-            <meta charSet="UTF-8"/>
-            <meta name="description" content="NFT preview app"/>
-            <meta name="keywords" content="Template, Challenge, frontendmentor, NFT, NextJS"/>
-            <meta name="author" content="Rafa"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <link rel="shortcut icon" href="../public/favicon.ico"/>
-        </title>
+          <meta charSet="UTF-8"/>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <meta name="description" content="NFT preview app"/>
+          <meta name="keywords" content="Template, Challenge, frontendmentor, NFT, NextJS"/>
+          <meta name="author" content="Rafa"/>
+          <link rel="shortcut icon" href="../public/favicon.ico"/>
       </Head>
       <Component {...pageProps} />
     </div>
