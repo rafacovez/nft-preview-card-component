@@ -5,7 +5,7 @@ export default function Footer() {
     const Emoji = (props) => {
         return (
             <span
-                className={styles.FooterEmoji}
+                className={`styles.${props}`}
                 role="img"
                 aria-label={props.label ? props.label : ""}
                 aria-hidden={props.label ? "false" : "true"}
@@ -16,7 +16,7 @@ export default function Footer() {
     }
     return (
         <footer className={styles.Footer}>
-            <p className={styles.FooterText}>Coded with <Emoji symbol="❤️" label="heart"/> by</p>
+            <p className={styles.FooterText}>Coded with <Emoji className="FooterE" symbol="❤️" label="heart"/> by</p>
             <Link href="https://twitter.com/rafdidact">
                 <a className={styles.FooterLink}>@rafdidact</a>
             </Link>

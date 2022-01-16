@@ -10,10 +10,14 @@ export default function Modal() {
     return (
         <div className={styles.Modal}>
             <div className={styles.ModalNFTImage}>
-                <Image src={NFT} alt="nft" width={350} height={350}/>
+                <Link passHref href="/">
+                    <Image src={NFT} alt="nft" width={350} height={350}/>
+                </Link>
             </div>
             <div className={styles.ModalHeader}>
-                <h3 className={styles.ModalHeaderHeading}>Equilibrium #3429</h3>
+                <Link passHref href="/">
+                    <h3 className={styles.ModalHeaderHeading}>Equilibrium #3429</h3>
+                </Link>
                 <p className={styles.ModalHeaderDescrip}>Our Equilibrium collection promotes balance and calm.</p>
             </div>
             <div className={styles.ModalInfo}>

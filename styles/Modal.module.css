@@ -39,108 +39,130 @@
 }
 
 .Modal {
-    @apply
-    grid
-    place-items-center
-    modal-bg
-    p-5
-    rounded-xl
-    shadow-xl;
+  @apply
+  grid
+  place-items-center
+  modal-bg
+  p-5
+  rounded-xl
+  shadow-xl;
 }
 
 .ModalNFTImage {
-    @apply
-    grid
-    place-items-center
-    w-full
-    bg-red-500
-    rounded-xl
-    overflow-hidden;
+  @apply
+  grid
+  place-items-center
+  w-full
+  rounded-xl
+  overflow-hidden
+  transition-all;
+}
+
+.ModalNFTImage:hover {
+  @apply
+  -translate-y-1
+  shadow-lg;
 }
 
 .ModalHeaderHeading {
-    @apply
-    text-2xl
-    font-600
-    t-white
-    my-4;
+  @apply
+  w-fit
+  text-2xl
+  font-600
+  t-white
+  my-4
+  cursor-pointer;
+}
+
+.ModalHeaderHeading:hover {
+  @apply
+  cyan;
 }
 
 .ModalHeaderDescrip {
-    @apply
-    font-300
-    soft-blue
-    my-4;
+  @apply
+  font-300
+  soft-blue
+  my-4;
 }
 
 .ModalInfo {
-    @apply
-    w-full
-    flex
-    items-baseline
-    justify-between;
+  @apply
+  w-full
+  flex
+  items-baseline
+  justify-between;
 }
 
 .ModalInfoPrice {
-    @apply
-    flex
-    items-center
-    cyan
-    font-600
-    uppercase;
+  @apply
+  flex
+  items-center
+  cyan
+  font-600
+  uppercase;
 }
 
 .ModalInfoPriceIcon {
-    @apply
-    mr-2;
+  @apply
+  grid
+  place-items-center
+  mr-2;
 }
 
 .ModalInfoExpireDate {
-    @apply
-    font-400
-    flex
-    items-center;
+  @apply
+  flex
+  items-center
+  font-400;
 }
 
 .ModalInfoExpireDateIcon {
-    @apply
-    mr-2;
+  @apply
+  grid
+  place-items-center
+  mr-2;
 }
 
 .ModalSeparator {
-    @apply
-    my-4
-    h-0.5
-    w-full
-    line-bg;
+  @apply
+  my-4
+  h-0.5
+  w-full
+  line-bg;
 }
 
 .ModalAuthor {
-    @apply
-    w-full
-    flex
-    items-center;
+  @apply
+  w-full
+  flex
+  items-center;
 }
 
 .ModalAuthorImg {
-    @apply
-    w-8
-    h-8
-    rounded-full
-    border-solid
-    border-2
-    border-white;
+  @apply
+  w-8
+  h-8
+  rounded-full
+  border-solid
+  border-2
+  border-white;
 }
 
 .ModalAuthorText {
-    @apply
-    soft-blue
-    font-400
-    ml-4;
+  @apply
+  soft-blue
+  font-400
+  ml-4;
 }
 
 .ModalAuthorLink {
-    @apply
-    ml-1
-    t-white;
+  @apply
+  ml-1
+  t-white;
+}
+
+.ModalAuthorLink:hover {
+  @apply
+  underline;
 }

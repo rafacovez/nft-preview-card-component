@@ -39,27 +39,27 @@
 }
 
 .Footer {
-    @apply
-    grid
-    place-items-center
-    pt-24
-    font-300;
+  @apply
+  grid
+  place-items-center
+  pt-24
+  font-300;
 }
 
 .FooterText {
-    @apply
-    soft-blue
-    opacity-80;
+  @apply
+  soft-blue
+  opacity-80;
 }
 
 .FooterLink {
-    @apply
-    cyan
-    underline
-    opacity-80;
+  @apply
+  cyan
+  underline
+  opacity-80;
 }
 
 .FooterLink:hover {
-    @apply
-    no-underline;
+  @apply
+  no-underline;
 }
