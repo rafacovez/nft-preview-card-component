@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>NFT  preview app</title>
+        <title>NFT preview app</title>
       </Head>
       <Modal/>
       <Footer/>
