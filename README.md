@@ -46,7 +46,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@rafdidact](https://www.frontendmentor.io/profile/rafacovez)
+- Frontend Mentor - [@rafdidact](https://www.frontendmentor.io/profile/rafdidact)
 - FreeCodeCamp - [@rafacovez](https://www.freecodecamp.org/rafacovez)
 - StackOverflow - [@rafacovez](https://stackoverflow.com/users/15068150/ad%c3%a1n-est%c3%a9vez)
 - LeetCode - [@rafacovez](https://leetcode.com/rafacovez/)
